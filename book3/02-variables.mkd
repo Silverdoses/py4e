@@ -12,10 +12,10 @@ Un *valor* es una de las cosas básicas que utiliza un
 programa, como una letra o un número. Los valores que hemos visto hasta
 ahora han sido `1`, `2`, y "¡Hola, mundo!"
 
-Esos valores pertenecen a *tipos* diferentes:
+Esos valores pertenecen a diferentes *tipos* :
 `2` es un entero (int), y "¡Hola, mundo!" es una
 *cadena* (string), que recibe ese nombre porque contiene
-una "cadena" de letras. Tú (y el intérprete) podéis identificar las
+una "cadena" de letras. Tú (y el intérprete) pueden identificar las
 cadenas porque van encerradas entre comillas.
 
 \index{comillas}
@@ -33,17 +33,17 @@ Si no estás seguro de qué tipo de valor estás manejando, el intérprete
 te lo puede decir.
 
 ~~~~ {.python .trinket height="160"}
->>> type(''¡Hola, mundo!)
+>>> type('¡Hola, mundo!')
 <class 'str'>
 >>> type(17)
 <class 'int'>
 ~~~~
 
-Not surprisingly, strings belong to the type `str` and
-integers belong to the type `int`. Less obviously, numbers
-with a decimal point belong to a type called `float`, because
-these numbers are represented in a format called *floating
-point*.
+No es sorprendente, las cadenas pertenecen al tipo `str` y
+los enteros pertenecen al tipo `int`. Menos obvio, los números
+con un punto decimal pertenecen a un tipo llamado `float`, porque
+estos números están representados en un formato llamado *punto
+flotante*.
 
 \index{type}
 \index{string type}

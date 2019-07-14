@@ -33,7 +33,7 @@ Si no estás seguro de qué tipo de valor estás manejando, el intérprete
 te lo puede decir.
 
 ~~~~ {.python .trinket height="160"}
->>> type('¡Hola, mundo!')
+>>> type(''¡Hola, mundo!)
 <class 'str'>
 >>> type(17)
 <class 'int'>
